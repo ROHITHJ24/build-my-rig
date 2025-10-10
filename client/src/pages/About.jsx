@@ -1,13 +1,80 @@
-import React from 'react'
+import React from "react";
+import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
-const About = () => {
+function About({ isLoggedIn }) {
   return (
-    <div>
-     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima dolorem tempore impedit suscipit nulla. Quos fugit eveniet sint repudiandae provident! Nihil totam odit doloribus ipsa nisi magnam minima officia ad nostrum atque delectus animi incidunt at sunt sit illum, excepturi alias dolores. Est sapiente repellendus nisi expedita quos illum laborum dignissimos? Delectus obcaecati officia libero pariatur, quasi nobis quae ducimus saepe facilis, in earum commodi molestias consequatur fugiat ut minus adipisci inventore amet, reiciendis excepturi. Suscipit ipsa, pariatur possimus modi quam corporis at quidem excepturi enim animi eos totam temporibus dolores quas ipsam nihil recusandae molestias nisi tempora maxime repellendus sit blanditiis. Odit architecto ea ad tempora reprehenderit, rerum ab, deleniti sunt facere beatae sapiente? Dolorem, ut quia neque nam esse dicta voluptas porro aliquam labore cum, soluta quae quasi odit alias vel saepe ratione assumenda rerum dignissimos accusamus repudiandae corporis necessitatibus? Officiis ratione possimus saepe dicta repudiandae at, animi maxime est adipisci, perferendis aliquam quidem dolorem praesentium consequatur? A recusandae blanditiis atque facilis, voluptatum id pariatur sed eaque? Adipisci quisquam vitae voluptatum necessitatibus, voluptatibus pariatur qui labore tempora, perferendis ipsum doloribus. Quos deserunt maiores consequatur sed sapiente nulla nihil tempore laudantium porro voluptatem, rem facilis tempora quaerat temporibus at quia incidunt ducimus blanditiis enim? Beatae saepe iste a odio vel repellat minus in, earum laborum eius tempora perferendis assumenda maxime quam et! Illum alias quos provident quibusdam tempore ipsum exercitationem, unde enim eveniet expedita facere temporibus ea nisi vel velit libero eligendi nulla iusto architecto saepe nam? Itaque delectus at doloremque fugiat, modi repellat dolore odit tempora veritatis atque facilis unde obcaecati explicabo animi amet odio porro illo inventore quidem deleniti totam? Deserunt beatae dolorem, soluta temporibus nulla ullam iusto, est dolores pariatur veniam excepturi fuga facere odio necessitatibus illo modi suscipit nam libero, omnis sint qui laborum ea impedit quasi! Necessitatibus pariatur ratione voluptates harum, debitis mollitia deleniti totam ipsa eius tenetur ducimus a provident ex. Harum officia aliquid dicta magnam cum quae error molestias optio, minima ea alias architecto nobis eaque, illum vel odio necessitatibus fugit minus illo recusandae? Id ad provident, labore facilis eum explicabo, velit placeat iste nisi non inventore temporibus adipisci libero ullam vero optio expedita minus eaque voluptatum? Vel molestiae eligendi nam non fugit officia aliquid voluptates neque odit rem veniam commodi eos repudiandae similique tenetur et quis, nobis sit molestias nihil quos libero temporibus? Numquam molestias omnis praesentium similique odit eligendi inventore fugit officiis consectetur eum impedit laudantium, explicabo, corrupti vero, adipisci reprehenderit? Dolorum molestiae hic ab id error illo, earum alias. Error amet cupiditate praesentium mollitia, asperiores ea illo accusamus qui reiciendis, illum eaque odio. Velit voluptatibus, atque explicabo aperiam est quia eligendi sequi recusandae illum? At consequuntur repudiandae, maiores eius eaque dolores dicta, suscipit atque quis architecto fugit. Aut numquam impedit ut aspernatur iure? Veniam laborum excepturi soluta natus facilis eos reprehenderit ipsum iusto quam, quos ex unde repudiandae sed repellat, dolore aliquid corporis necessitatibus nemo quibusdam. Tenetur dolores, soluta nostrum vero eaque sapiente aliquid? Reiciendis repudiandae cum id sint excepturi, optio voluptate aut quibusdam. Qui blanditiis quidem accusantium dolorem corrupti, illum doloribus obcaecati, ad atque mollitia architecto optio assumenda dicta commodi possimus? Ullam magnam magni commodi ratione doloremque ipsa porro voluptas quisquam, consequatur beatae alias, officiis nesciunt laudantium ab, consectetur recusandae corrupti culpa omnis error exercitationem! Tempore labore ducimus, sit, magnam aut soluta esse harum at nesciunt doloribus, eum nostrum totam dicta ut? Ad voluptatum reprehenderit aliquid repellendus ea odit eaque possimus molestias, nostrum voluptas impedit omnis cupiditate ducimus sapiente repellat sunt sequi magnam quam saepe in fuga at ratione ullam natus. Dolores voluptas qui molestias deleniti dolorum corporis placeat fugit iste itaque! Quibusdam magni explicabo, molestias molestiae soluta temporibus expedita eligendi assumenda nam beatae iure, nihil sunt vitae? Mollitia suscipit rem impedit alias, laudantium debitis eos aspernatur in deleniti ut aut fuga enim. Temporibus debitis itaque provident assumenda eveniet ullam quae libero distinctio animi dicta alias suscipit minus voluptate dolore repudiandae eos harum, similique blanditiis adipisci in commodi dolores! Animi fugit tempora voluptatem temporibus. Vel sequi rem consequuntur accusamus. Ducimus, necessitatibus quis minus corrupti repellat, impedit natus quas saepe adipisci sint ab deleniti rerum aut, a amet corporis omnis cupiditate dolore sapiente! Voluptate unde iusto quis molestiae, explicabo ea, tempore deleniti velit sit magni ullam incidunt aspernatur. Laudantium voluptates doloremque, ab ducimus beatae fuga officiis reiciendis dolorum dolor expedita! Autem quam voluptas distinctio natus! Dignissimos asperiores soluta eaque eligendi nesciunt libero esse quibusdam! Perspiciatis, repudiandae aperiam quo atque laboriosam voluptatibus a eligendi adipisci? Accusantium animi natus porro possimus ea ipsam autem quas. Tempore at provident sequi ea accusantium ipsum nulla blanditiis? Eius molestias libero ratione doloremque, quia illum sunt temporibus, ab, fugit blanditiis at ut amet earum. Aspernatur, impedit, quibusdam recusandae sunt corporis ratione reprehenderit, quis exercitationem eum ut possimus voluptatibus? Soluta aspernatur facilis perspiciatis modi libero odit qui dolores facere! Autem soluta esse tenetur minus, cupiditate dicta quidem est quibusdam magnam officia quia aliquam molestiae adipisci dolore deserunt repellat. Tenetur a aperiam eum impedit magni voluptatum, culpa eligendi repellendus officiis quis aliquid delectus modi veritatis earum repellat cum sed aliquam nisi illo quae molestiae rerum blanditiis? Sint molestias, iste recusandae totam dignissimos inventore doloribus cupiditate deleniti. Officiis quasi dignissimos libero corrupti possimus architecto ipsum consectetur ad doloremque distinctio, similique praesentium sequi inventore reiciendis neque, a amet eligendi tempore deleniti aliquam pariatur. Fuga repellat labore ex rem temporibus voluptates! Autem eligendi quo facilis, officia saepe a pariatur suscipit.   
-      
-    </div>
-  )
+    <>
+      <section className="bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white py-16 px-6 transition-colors duration-300">
+        <div className="max-w-5xl mx-auto text-center">
+          {/* Heading */}
+          <h1 className="text-4xl font-bold mb-6">About BuildMyRig</h1>
+          <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
+            BuildMyRig is your one-stop platform to design and order your dream PC.
+            With our interactive builder, you can hand-pick every part — from the CPU
+            to the cabinet — and instantly check compatibility. Once your build is
+            ready, you can place an order and get your custom rig delivered.
+          </p>
+
+          {/* Login Prompt */}
+          {!isLoggedIn && (
+            <div className="mb-12">
+              <p className="text-gray-700 dark:text-gray-300 mb-4">
+                To start building your PC or place an order, please log in first.
+              </p>
+              <div className="flex justify-center gap-4">
+                <Link
+                  to="/login"
+                  className="px-6 py-3 bg-green-600 text-white rounded-md font-semibold hover:bg-green-700 transition"
+                >
+                  Login with Email
+                </Link>
+                <button
+                  onClick={() => alert("Google Sign-In coming soon!")}
+                  className="px-6 py-3 bg-blue-600 text-white rounded-md font-semibold hover:bg-blue-700 transition"
+                >
+                  Login with Google
+                </button>
+              </div>
+            </div>
+          )}
+
+          {/* Mission + Vision cards */}
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-gray-200 dark:bg-gray-800 p-8 rounded-2xl shadow-md hover:shadow-lg transition">
+              <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
+              <p className="text-gray-700 dark:text-gray-300">
+                To make PC building simple, fun, and stress-free. Whether you’re a
+                gamer, creator, or student, we want you to have full control over
+                your rig without worrying about part mismatches.
+              </p>
+            </div>
+
+            <div className="bg-gray-200 dark:bg-gray-800 p-8 rounded-2xl shadow-md hover:shadow-lg transition">
+              <h2 className="text-2xl font-semibold mb-4">Our Vision</h2>
+              <p className="text-gray-700 dark:text-gray-300">
+                To redefine PC shopping — moving away from fixed pre-built machines
+                to fully customizable rigs that match every user’s style, budget,
+                and performance needs.
+              </p>
+            </div>
+          </div>
+
+          {/* Why BuildMyRig */}
+          <div className="mt-16 bg-gray-200 dark:bg-gray-800 p-8 rounded-2xl shadow-md">
+            <h2 className="text-2xl font-semibold mb-4">Why BuildMyRig?</h2>
+            <p className="text-gray-700 dark:text-gray-300">
+              Unlike traditional online stores, BuildMyRig gives you complete freedom
+              to choose your parts, validate them for compatibility, and then
+              place an order for your exact build. No compromises, no confusion — 
+              just your personalized PC delivered to your doorstep.
+            </p>
+          </div>
+        </div>
+      </section>
+      <Footer />
+    </>
+  );
 }
 
-export default About
-
+export default About;
