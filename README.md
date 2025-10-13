@@ -38,10 +38,10 @@ Designed for **gamers, tech enthusiasts, and PC builders** who want to experimen
 
 | Category | Tools |
 |-----------|-------|
-| **Frontend** | HTML, CSS (Tailwind), JavaScript |
+| **Frontend** | React.js, CSS (Tailwind),|
 | **Design/UI** | Tailwind CSS, Framer Motion |
 | **Version Control** | Git, GitHub |
-| **Deployment** | GitHub Pages |
+| **Deployment** | Netlify |
 | **Future Scope** | Firebase Integration, AI-based build optimization |
 
 ---
