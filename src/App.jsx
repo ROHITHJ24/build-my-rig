@@ -21,11 +21,11 @@ const RequireAuth = ({ children, allowedRoles }) => {
   return children;
 };
 
-// Wrapper to include Navbar for authenticated pages
+// Wrapper to include Header for authenticated pages
 const AuthLayout = ({ children, isAdmin }) => (
   <>
-    {isAdmin ? <AdminNavbar /> : <Navbar />} {/* Use AdminNavbar if isAdmin */}
-    <div className=""> {/* optional padding for navbar */}
+    <Header />
+    <div className=""> {/* optional padding for header */}
       {children}
     </div>
   </>
