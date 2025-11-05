@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
-import Navbar from './components/NavBar';
+import Header from './components/Header';
 import AdminNavbar from './components/AdminNavbar'; // <-- added
 import UserHome from './pages/UserHome';
 import Builder from './pages/Builder';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Cart from './pages/Cart';
-import LandingPage from './pages/LandingPage';
+import Home from './pages/Home';
 import AdminDashboard from './pages/AdminDashboard';
 
 // RequireAuth HOC to protect routes
@@ -21,11 +21,11 @@ const RequireAuth = ({ children, allowedRoles }) => {
   return children;
 };
 
-// Wrapper to include Navbar for authenticated pages
+// Wrapper to include Header for authenticated pages
 const AuthLayout = ({ children, isAdmin }) => (
   <>
-    {isAdmin ? <AdminNavbar /> : <Navbar />} {/* Use AdminNavbar if isAdmin */}
-    <div className=""> {/* optional padding for navbar */}
+    <Header />
+    <div className=""> {/* optional padding for header */}
       {children}
     </div>
   </>
@@ -35,8 +35,23 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* Landing Page */}
-        <Route path="/" element={<LandingPage />} />
+        {/* Home Page - Public */}
+        <Route path="/" element={<Home />} />
+
+        {/* Products Page - Public */}
+        <Route path="/products" element={<AuthLayout><div className="p-8"><h1 className="text-2xl font-bold">Products Page - Coming Soon</h1></div></AuthLayout>} />
+        <Route path="/products/:id" element={<AuthLayout><div className="p-8"><h1 className="text-2xl font-bold">Product Details - Coming Soon</h1></div></AuthLayout>} />
+
+        {/* Dashboard Pages */}
+        <Route path="/dashboard" element={<AuthLayout><div className="p-8"><h1 className="text-2xl font-bold">User Dashboard - Coming Soon</h1></div></AuthLayout>} />
+        <Route path="/dashboard/profile" element={<AuthLayout><div className="p-8"><h1 className="text-2xl font-bold">Profile - Coming Soon</h1></div></AuthLayout>} />
+        <Route path="/dashboard/orders" element={<AuthLayout><div className="p-8"><h1 className="text-2xl font-bold">Orders - Coming Soon</h1></div></AuthLayout>} />
+        <Route path="/dashboard/wishlist" element={<AuthLayout><div className="p-8"><h1 className="text-2xl font-bold">Wishlist - Coming Soon</h1></div></AuthLayout>} />
+        <Route path="/dashboard/settings" element={<AuthLayout><div className="p-8"><h1 className="text-2xl font-bold">Settings - Coming Soon</h1></div></AuthLayout>} />
+
+        {/* Auth Pages */}
+        <Route path="/login" element={<div className="p-8"><h1 className="text-2xl font-bold">Login - Coming Soon</h1></div>} />
+        <Route path="/register" element={<div className="p-8"><h1 className="text-2xl font-bold">Register - Coming Soon</h1></div>} />
 
         {/* User Dashboard */}
         <Route
