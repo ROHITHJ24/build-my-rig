@@ -8,7 +8,7 @@ import Builder from './pages/Builder';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Cart from './pages/Cart';
-import LandingPage from './pages/LandingPage';
+import Home from './pages/Home';
 import AdminDashboard from './pages/AdminDashboard';
 
 // RequireAuth HOC to protect routes
